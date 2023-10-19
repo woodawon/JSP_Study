@@ -1,0 +1,143 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+}
+
+body {
+	background-color: #424242;
+}
+
+/* mainlogo */
+.mainTextandImg {
+	display: flex;
+	text-align: center;
+	background-color: #F5F5F5;
+	align-items: center;
+	justify-content: center;
+	flex-direction: row-reverse;
+	margin-left: 30%;
+	margin-right: 30%;
+	margin-top: 20px;
+	text-decoration: none;
+	color: black;
+	border: 1px solid black;
+}
+
+.mainImage {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+}
+
+.mainText {
+	font-size: 40px;
+	padding: 10px 5px;
+}
+
+/* interface */
+.box {
+	font-size: 15px;
+	padding-top: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+}
+
+.inner-container {
+	display: flex;
+}
+
+ul {
+	display: flex;
+    width: 100%;
+    text-align: center;
+    list-style-type: none;
+    padding-inline-start: 0;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.inner1 {
+	display: flex;
+    background-color: #F5F5F5;
+    border: 1px solid black;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+
+.link {
+	color: black;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.link:hover {
+	background-color: black;
+}
+
+.inner2 {
+	display: flex;
+    width: 12%;
+    margin-left: 20px;
+    justify-content: space-around;
+    background-color: none;
+    border: none;
+    color: black;
+}
+
+#book>ul {
+	display:none;
+	background-color: #BDBDBD; 
+}
+
+#book > ul > li > a {
+	text-decoration: none;
+	color:black;
+}
+
+#book:hover > ul {
+	display:block;
+/* ... (8줄 남음) */
+}
+#snack {
+	position: relative;
+	padding: 30px 10%;
+	margin-bottom: 5px;
+}
+
+.Popcorn {
+	width: 310px;
+	height: 250px;
+	margin: 5px;
+}
+
+
+
+#PackageText {
+	color: black;
+	margin-top: 5px;
+	margin: 5px;
+	margin: 35px;
+	
+	
+}
+.SaleColor {
+	font-size: 18px;
+	display: inline-block;
+	color: rgb(255, 36, 62);
+	font-weight: bold;
+	
+	
+}
+.OriginalPrice {
+	color: opacity;
+	font-size: 13px;
+	text-decoration: line-through;
+}
+
+
+
+
+
